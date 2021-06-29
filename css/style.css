@@ -493,6 +493,9 @@ span {
 }
 
 @media (max-width: 768px) {
+    .logo {
+        font-size: 1.3rem;
+    }
     .services {
         grid-template-columns: 1fr;
     }
@@ -506,5 +509,8 @@ span {
     .contact-form .input100 {
         width: 100%;
         margin: 0;
+    }
+    .contact-info .info-box .details a {
+        font-size: 10px;
     }
 }
